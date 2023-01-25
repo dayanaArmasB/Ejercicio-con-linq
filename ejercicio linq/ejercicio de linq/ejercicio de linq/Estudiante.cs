@@ -8,6 +8,14 @@ namespace ejercicio_de_linq
 {
     internal class Estudiante
     {
+        public Estudiante() { } 
+        public Estudiante(string nombre , string apellido , int id )
+        {
+
+            this.Nombre = nombre;
+            this.Apellido = apellido;
+            this.Id = id;
+        }
         public string Nombre { get; set; }
         public string Apellido { get; set; }
         public int Id { get; set; }

@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Estudiante.cs" />
+    <Compile Include="Filtrado.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
